@@ -1,0 +1,19 @@
+{
+  "name": "rxjs5",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install"
+  },
+  "dependencies": {
+    "rxjs": "^5.4.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.3.2",
+    "typescript": "^2.4.2",
+    "typings": "^2.1.1",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
